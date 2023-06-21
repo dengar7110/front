@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            border: 1px solid black;
+            width: 900px;
+            height: 800px;
+        
+           
+            position: relative;
+            align-items: center;
+            margin: 0 auto;
+            align-content: center;
+
+        }
+
+
+        .top{
+            width: 900px;
+            height: 100px;       
+
+            position: relative;
+            background-color: rgb(188, 235, 243);
+            
+
+        }
+
+
+        .menu{
+            width: 300px;
+            height: 70px;
+
+            position: absolute;
+            right:0px;
+            bottom: 0px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+            align-content: center;   
+            
+            font-size: 12px;
+            
+            
+            
+        }
+
+        .item1{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        .item1:hover{
+            background-color: antiquewhite;
+        }
+
+        .item2{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            background-color: green;
+            margin-left: 5px;
+        }
+
+        .item2:hover{
+            box-shadow: 0px 0px 10px 0px green;
+        }
+
+        .google{
+            width: 300px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            align-content: center;
+            margin: auto;
+            
+            background-image: url(data:image/png;base64,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);
+            
+
+
+        }
+
+
+        .text{
+            width: 250px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            left: 500px;
+            border-radius: 17px;
+            margin: auto;
+
+            border:1px solid black;
+           
+
+        }
+      
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="header">
+
+    <!-- 첫 줄 -->
+    <div class="top">
+        <div class="menu">          
+                <div class="item1">Gmail</div>
+                <div class="item1">로그인</div>
+                <div class="item1">이미지</div>
+                <div class="item2">사진</div>    
+
+        </div>
+    </div>
+
+    <!--  title -->
+    <div class="google"></div>
+
+
+    <!-- 검색 줄-->
+    <div class="text">
+        <input type="text1">
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
