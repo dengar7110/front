@@ -1,0 +1,305 @@
+.wrap{
+    width: 100%;
+    height: 5500px;
+}
+
+/* page 1 */
+.page1{
+    width: 100%;
+    height: 960px;
+    background:linear-gradient(
+        to bottom,
+        rgba(255,255,255,0) 10%,
+        rgba(255,255,255,0) 25%,
+        rgba(255,255,255,0) 30%,
+        rgba(255,255,255,0.3) 80%,
+        rgba(255,255,255,0.8) 90%,
+        rgba(255,255,255,0.9) 95%,
+        rgba(255,255,255,1) 100%
+        ), url(./김민지_웹페이지배경.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+.wrap_page1_title{
+    position: absolute;
+    bottom: 130px;
+    left: 150px;
+}
+.name{
+    color: rgb(32, 45, 87);
+    font-weight: bold;
+    font-size: 80px;
+}
+.page1_title{
+    color: rgb(32, 45, 87);
+    font-size: 130px;
+    font-weight: bold;
+}
+
+/* page 2*/
+.page2{
+    width: 100%;
+    height: 900px; 
+}
+.page2_title{  
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(32, 45, 87);
+    margin-top: 200px;
+}
+.page2_body{
+    display: flex;
+}
+.page2_left{
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.my_photo{
+    width:300px;
+    height: 400px;
+    background-image: url(./김민지_증명사진.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid rgb(140, 211, 240);
+    margin: 0 auto;
+}
+.my_text{
+    width: 500px;
+    font-weight: bold;
+    line-height: 30px;
+    background-color:  rgb(191, 233, 250);
+    margin: 30px auto;
+    border-radius: 30px;
+}
+.page2_right{
+    width: 50%;
+    height: 700px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.about_me_text{
+   font-size:25px;
+   line-height: 70px;
+   font-weight: bold;
+}
+.arrow{
+    color:rgb(235, 181, 3);
+    font-size: 40px;
+}
+.line{
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+/* page 3 */
+.page3{
+    width: 100%;
+    height: 1500px; 
+}
+.page3_skill{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(32, 45, 87);
+}
+.wrap_skill-icon{
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.skill-icon{
+    width: 200px;
+    height:200px;
+    margin: 20px;
+}
+.page3_portfolio{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(32, 45, 87);
+    margin-top: 170px;
+}
+.page3_body{
+    display: flex;
+    padding-bottom: 80px;
+}
+.page3_left{
+    width: 50%;
+    height: 700px;
+    text-align: center;
+
+    position: relative;
+}
+.wrap_sku_firend{
+    width: 700px;
+    height: 500px;
+
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+.sku_title{
+    color:  rgb(32, 45, 87);
+    font-size: 70px;
+    font-weight: bold;
+}
+.sku_text{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+mark{
+    background-color: rgb(191, 233, 250);
+    border-radius: 20px;
+    padding: 5px;
+}
+.sku_text2{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+    color:rgb(231, 185, 34);
+    text-align: left;
+    margin-left: 100px;
+}
+.text_black{
+    color: black;
+}
+.page3_right{
+    width: 50%;
+    height: 700px;
+
+    position: relative;
+}
+video{
+    width: 400px;
+    height: 600px;
+
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+/* page 3-1 */
+.page3-1{
+    width: 100%;
+    height: 800px; 
+}
+.page3-1_body{
+    display: flex;
+    padding-bottom: 80px;
+}
+.page3-1_left{
+    width: 50%;
+    height: 700px;
+    text-align: center;
+
+    position: relative;
+}
+.wrap_miumiu{
+    width: 700px;
+    height: 500px;
+
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+.miumiu_title{
+    color:  rgb(32, 45, 87);
+    font-size: 70px;
+    font-weight: bold;
+}
+.miumiu_text{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+mark{
+    background-color: rgb(191, 233, 250);
+    border-radius: 20px;
+    padding: 5px;
+}
+.miumiu_text2{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+    color:rgb(231, 185, 34);
+    text-align: left;
+    margin-left: 100px;
+}
+.miumiu_text2>a{
+    text-decoration: none;
+}
+.text_black{
+    color: black;
+}
+.page3-1_right{
+    width: 50%;
+    height: 700px;
+
+    position: relative;
+}
+.page3-1_right > img{
+    width: 800px;
+    height: 500px;
+    
+    position: relative;
+    top: 120px;
+}
+
+
+
+/* page 4 */
+.page4{
+    width: 100%;
+    height: 1800px;
+}
+.page4_top{
+    width: 100%;
+    height: 22%;
+    text-align: center;
+}
+.edu_title{
+    color:  rgb(32, 45, 87);
+    font-size: 70px;
+    font-weight: bold;
+}
+.edu_contents{
+    font-weight: bold;
+    line-height: 30px;
+}
+.bigger_text{
+    font-size: 20px;
+    color: black;
+}
+.date{
+    color: rgb(231, 185, 34);
+}
+.page4_bottom{
+    width: 100%;
+    height: 75%;
+    text-align: center;
+}
+.exp_title{
+    color:  rgb(32, 45, 87);
+    font-size: 73px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.exp_contents{
+    font-weight: bold;
+    line-height: 30px;
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+
+    <script>
+
+        let one = [ "가" , "나"  , "다" , "라" , "마"];
+
+        
+        let result = JSON.stringify(one);
+
+        console.log( one);
+        console.log( result);
+        
+   
+        let str = '[ "가" , "나"  , "다" , "라" , "마"]';
+
+        localStorage.setItem("one" , str);
+        
+     
+        let ones = localStorage.getItem("one");
+        alert( ones);
+
+        let sones = JSON.parse(ones);
+        console.log(sones);
+
+        
+    </script>
+
+
+</body>
+</html>

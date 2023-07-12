@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .header{
+            height: 100px;
+            background-color: rgb(245, 248,248);
+            border:1px solid black;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .title{
+            position: absolute;
+            left: 10px;
+            top:20px;
+            height: 30px;
+            width: 150px;
+            background-size: cover;
+            background-position: center;
+            background-image: url(../7day_0622/images/images/logo.png);
+        }
+
+        .see{
+            position: absolute;
+            right: 0px;
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-position: center;
+            background-image: url(../7day_0622/images/images/검색.png);
+        }
+
+        .search{
+            position: absolute;
+            right: 10px;
+            bottom:20px;
+            border:1px solid black;
+            width: 200px;
+            height: 30px;
+        }
+
+        .text{
+            width: 80px;
+            height: 20px;
+            
+
+        }
+
+        .in{
+            border: none;
+            outline: none;
+        }
+
+        .nav{
+            border:1px solid black;
+            height: 40px;
+            padding: 20px;
+            background-color: rgb(232, 243, 243);
+        }
+
+        .menu{
+            display: flex;
+            position: absolute;
+            right: 30px;
+            box-sizing: border-box;
+        }
+
+        .section{
+            border:1px solid black;
+            height: 600px;
+            margin-top: 50px;
+            display: flex;
+        }
+
+        .img{
+            display: flex;
+            padding: 50px;
+            border-collapse: collapse;
+            margin: auto;
+            list-style: none;  
+            font-size: 12px; 
+            text-align: center;    
+        }
+
+        .img1{
+            margin: 0 auto;
+
+            width: 200px;
+            height: 210px;
+            background-size: cover;
+            background-position: center;
+
+            background-image: url(../7day_0622/images/images/img01.png);
+        }
+
+        .img2{
+            margin: 0 auto;
+
+            width: 200px;
+            height: 210px;
+            background-size: cover;
+            background-position: center;
+
+            background-image: url(../7day_0622/images/images/img02.png);
+        }
+
+        .img3{
+            margin: 0 auto;
+
+            width: 200px;
+            height: 210px;
+            background-size: cover;
+            background-position: center;
+
+            background-image: url(../7day_0622/images/images/img03.png);
+        }
+
+        .box1{
+            width: 250px;
+            height: 250px;
+            border: 0.5px solid rgb(255, 241, 241);
+            position: relative;
+
+        }
+
+        .box2{
+            width: 250px;
+            height: 250px;
+            border: 0.5px solid rgb(255, 241, 241);
+            position: relative;
+        }
+
+        .box3{
+            width: 250px;
+            height: 250px;
+            border: 0.5px solid rgb(255, 241, 241);
+            position: relative;
+        }
+
+
+
+
+
+
+        .footer{
+            padding:20px;
+            background-color: rgb(233, 239, 239);
+            border: 1px solid black;
+            display: flex;
+            font-size: 10PX;
+            box-sizing: border-box;
+            
+        }
+
+        .foot1{
+            width: 33%;}
+
+        .foot11{
+            background-size: cover;
+            background-position: center;
+            width: 100px;
+            height: 20px;
+            background-image: url(../7day_0622/images/images/footer_acorn.png);
+        }
+
+        .foot2{
+            width: 33%;
+        }
+
+        .foot3{
+            width: 33%;
+        }
+
+        .box4{
+            width: 130px;
+            padding: 10px;
+            color: red;
+            background-color: beige;
+            position: absolute;
+            right: -3px;
+            top: -15px;
+            border-radius: 10px;
+        }
+
+        .box5{
+            width: 130px;
+            padding: 10px;
+            color: red;
+            background-color: beige;
+            position: absolute;
+            right: -3px;
+            top: -15px;
+            border-radius: 10px;
+        }
+        .box6{
+            width: 130px;
+            padding: 10px;
+            color: red;
+            background-color: beige;
+            position: absolute;
+            right: -3px;
+            top: -15px;
+            border-radius: 10px;
+        }
+
+        
+
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="title"></div>
+        <div class="search"><div class="see"></div>
+            <input type="text" class="in">
+            
+        </div>
+    </div>
+    <div class="nav">
+        <div class="menu">
+            <div>로그인 | 홈으로</div>
+            
+        </div>
+    </div>
+    <div class="section">
+        <ul class="img">
+        <div class="box1">
+
+            
+                <li class="img1">
+                <li>프로젝트기반 빅데이터 분석과정</li></li>
+               <div class="box4">bigdata</div>
+        </div>
+            
+         <div class="box2">  
+            <li class="img2"><li>자바(JAVA)안드로이드 개발자 양성과정</li></li>
+            <div class="box5">Android</div>
+
+        </div> 
+            
+        <div class="box3">
+            <li class="img3"><li>Web기반 프론트엔드 자바 개발자 양성과정</li></li>
+            <div class="box6">Front</div>
+
+        </div>
+        </ul>
+    </ul>
+    </div>
+    <div class="footer">
+        <div class="foot1">
+            <div class="foot11"></div>
+        </div>
+        <div class="foot2">에이콘ACADEMY(홍대)</div>
+        <div class="foot3">COPYRIGHT(C) HBILAB ALL RIGHTS RESERVED</div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    
+
+
+
+
+</body>
+</html>

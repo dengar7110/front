@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2> 8.  카드사용금액을 입력받아  50만원이상  "vvip"  30이상이면 "vip"  나머지 "bronze" 출력 </h2>
+
+
+    <script>
+        let a = prompt("사용금액을 입력하시오", "만원");  //등급구하기 A, B, C, 나머지 F
+        let grade;
+
+        if( a >=50){
+            grade="VVIP"; //''. " "
+        }else if( a >=30){
+            grade="VIP";
+        }else{
+            grade="BRONZE";
+        }
+        alert(grade);
+
+        </script>
+
+
+    
+
+
+
+
+
+
+</body>
+</html>

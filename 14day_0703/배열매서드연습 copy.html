@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // 배열의 요소를 모두 출력하세요
+       
+        // alert( arr[0]);
+        // alert( arr[1]);
+        // alert( arr[2]);
+
+        function myForEach(f){
+            let arr= ["아침" , "점심" , "저녁" ];
+            for( let i=0, i<=2, i++){
+                f(arr[0], i);
+            f(arr, i);
+        }};
+
+
+
+        myForEach( function(arr, i){
+                alert("이것은" + arr + "이다" + i);
+            });
+
+
+
+        
+
+        //반복문 없이
+
+        //반복문
+
+        // for( let i=0; i<=arr.length ; i++){
+        //     alert( arr[i] + " " + i);
+        // }
+
+        // //배열매서드
+        // arr.forEach( function( item, index){
+        //     alert ( item + " " + i);
+        // });
+
+
+
+
+        // // 익명함수
+        // arr.forEach(func1);
+
+        // function func1(a,b){ // 매개변수가 2개인 함수 요소, index
+        //         alert( a + " " + b);
+        // }
+
+
+
+
+    </script>
+</body>
+</html>

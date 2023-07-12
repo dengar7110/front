@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            height: 1000px;
+            border: 0px solid black;
+            margin-top: 1px;
+        }
+        .notice{
+            height: 60px;
+            background-color: black;
+            color: white;
+        }
+        span{
+            margin-left: 10px;
+        }
+        .btn1{
+            width: 60px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: white;
+            margin-left: 925px;
+            margin-top: 5px;
+        }
+        .b{
+            margin-top: 20px;
+            border: 1px solid black;
+            color: white;
+            display: flex;
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+        .logo{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            margin-left: 3px;
+            margin-top: 5px;
+            background-image: url(data:image/png;base64,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);
+            background-size: cover;
+            background-position: center;
+
+        }
+        .btn2{
+            width: 60px;
+            height: 45px;
+            border-radius: 17px;
+            border: 0px;        
+            background-color: black;
+            color: white;
+            margin-left: 10px;
+            font-size: 17px;  
+        }
+        .btn3{
+            width: 60px;
+            height: 45px;
+            border-radius: 17px;
+            border: 0px;
+            background-color: white;           
+            margin-left: 10px;
+            margin-right: -5px;
+            font-size: 16px; 
+        }
+        .bar{
+            width: 1450px;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-left: 20px;
+            position: relative;
+
+        }
+        input{
+            width: 650px;
+            height: 29px;
+            border: 0px solid black;
+            position: absolute;
+            bottom: 5.5px;
+            font-size: 20px;
+        }
+        .btn4{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            background-image: url(./검색1.png);
+            background-size: cover;
+            background-position: center;
+            border: 0px; 
+            margin-top: 3px;    
+            margin-left: 2px;       
+        }
+
+        .c{
+            height: 100px;
+            border: 0px solid black;
+            display: flex;
+            margin-top: 10px;
+        }
+        .btn5{
+            width: 20px;
+            height: 20px;
+            margin-top: 14px;
+            border: 0px;            
+            background-image: url(아래화살표1.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .yame{
+            width: 200px;
+            height: 40px;
+            border: 0px solid black;
+           
+            background-image: url(./야매2.png);
+            background-size: cover;
+            background-position: center;
+            margin-left: 20px;
+            
+        }
+        .last{
+            height: 800px;
+            border: 0px solid black;
+
+            background-image: url(./야매3.png);
+            background-size: cover;
+            background-position: center;
+            margin-top: -30px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="wrap">
+
+        <div class="notice"><span>Pinterest에서 데이터가 어떻게 활용되는지 자세히 알 수 있도록 개인정보 보호정책을 업데이트 했습니다. 자세히 알아보기</span>
+        <button class="btn1">수락</button>
+        </div>
+
+        <div class="c">
+            <div class="logo"></div><button class="btn2">홈</button><button class="btn3">만들기</button>
+            <button class="btn5"></button>
+                <div class="bar"><button class="btn4"></button><input type="text" placeholder="Search">
+                </div><div class="yame"></div>
+        </div>
+
+        <div class="last"></div>
+               
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,224 @@
+header{
+    width: 100%;
+    height: 290px;
+    text-align: center;
+}
+.header_img{
+    width: 1552px;
+    height: 263px;
+}
+.wrap_nav_text{
+    display: flex;
+}
+nav{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+ul,li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav_text{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.nav_text:hover{
+    text-decoration: underline;
+}
+.wrap_nav_icon{
+    display: flex;
+    
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+}
+.kr{
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+.nav_icon{
+    width: 16px;
+    width: 23px;
+    margin-right: 20px;
+}
+.arkady >img{
+    width: 100%;
+    height: 700px;
+}
+.iconic{
+    width: 100%;
+    height: 830px;
+}
+.iconic_nav{
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+.iconic_nav_left{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.iconic_nav_right{
+    font-weight: bold;
+    text-decoration: underline;
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.iconic_img{    
+    display: flex;
+    justify-content: center;
+}
+.iconic_img img{
+    width: 33%;
+    height: 706px;
+    margin: 5px;
+}
+.go_buy{
+    width: 100%;
+    height: 1820px;
+}
+.go_buy_top{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+.go_buy_left{
+    width: 50%;
+    height: 900px;
+}
+.go_buy_left img{
+    width: 100%;
+    height: 900px;
+}
+.go_buy_right{
+    width: 50%;
+    height: 900px;
+    text-align: right;
+}
+.go_buy_right img{
+    width: 98%;
+    height: 900px;
+}
+.go_buy_bottom{
+    width: 100%;
+    height: 900px;
+}
+.go_buy_bottom img{
+    width: 100%;
+    height: 900px;
+    margin-top: 15px;
+}
+.club p{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.wrap_img{
+    text-align: center;
+}
+.club img{
+    width: 24%;
+    height: 558px;
+}
+.top_footer{
+    height: 350px;
+    display: flex;
+
+    position: relative;
+}
+.top_footer ul{
+    position: relative;
+    top: 60px;
+    left: 50px;
+    font-size: 12px;
+}
+.top_footer span{
+    font-weight: bold;
+}
+.top_footer li{
+    width: 300px;
+    line-height: 40px;
+}
+.top_footer_right{
+    position: absolute;
+    right: 200px;
+}
+.top_footer_right p{
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+.follow_icon{
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+.follow_icon1{
+    position: absolute;
+    top: 32px;
+}
+.follow_icon2{
+    position: absolute;
+    top: 35px;
+    left: 80px;
+   
+}
+.follow_icon3{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+   
+}
+.follow_icon4{
+    position: absolute;
+    top: 32px;
+    left: 240px;
+}
+.bottom_miumiu{
+    text-align: center;
+    position: relative;
+    height: 310px;
+    
+}
+.bottom_miumiu img{
+    width: 1552px;
+    height: 264px;
+}
+.bottom_miumiu >p{
+    font-size: 10px;
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+}
+.line{
+    width: 85%;
+    height: 1px;
+    background-color: rgb(203, 209, 209);
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+}
+footer p{
+    font-size: 11px;
+}
+.footer_left{
+    position: relative;
+    left: 150px;
+}
+.footer_right{
+    position: relative;
+    left:450px;
+}
